@@ -4,14 +4,14 @@ services:
     image: jlesage/firefox
     ports:
       - "5800:5800"
-    cpus: "0.6"
-    mem_reservation: "2G"
+    cpus: "0.61"
+    mem_reservation: "2.1G"
     mem_limit: "3G"
     networks:
       custom-network:
-        ipv4_address: 172.16.239.22 # Assign a specific IP address in the custom network
+        ipv4_address: 172.16.239.23 # Assign a specific IP address in the custom network
     environment:
-      - DISPLAY_WIDTH=1035 #change here
+      - DISPLAY_WIDTH=1033 #change here
       - DISPLAY_HEIGHT=785 # change here
 networks:
   custom-network:
