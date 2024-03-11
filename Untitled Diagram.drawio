@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2024-03-11T04:04:18.321Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="ko0eZvUTXXkZfWJsH7oP" version="24.0.4" type="github">
+  <diagram name="Page-1" id="m3PUqzvBSsMdZ23tux2j">
+    <mxGraphModel dx="929" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hlLjJypN73U3xtKW9HYt-1" value="192.168.1.2/24" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-2" value="192.168.1.1/24" style="image;html=1;image=img/lib/clip_art/networking/Wireless_Router_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="334" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hlLjJypN73U3xtKW9HYt-3" target="hlLjJypN73U3xtKW9HYt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-3" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="70" y="92.9" width="170" height="107.1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hlLjJypN73U3xtKW9HYt-2" target="hlLjJypN73U3xtKW9HYt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hlLjJypN73U3xtKW9HYt-6" target="hlLjJypN73U3xtKW9HYt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-6" value="192.168.1.4/24&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-7" value="192.168.1.3" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="1">
+          <mxGeometry x="670" y="195" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hlLjJypN73U3xtKW9HYt-7" target="hlLjJypN73U3xtKW9HYt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-10" value="New set up for all new clients:&lt;div&gt;192.168.1.X/24&lt;/div&gt;&lt;div&gt;New gateway: 192.168.1.2&lt;/div&gt;&lt;div&gt;Can use Socks&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-11" value="Public IP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-12" value="192.168.1.5-100/24&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="500" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.088;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hlLjJypN73U3xtKW9HYt-12" target="hlLjJypN73U3xtKW9HYt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hlLjJypN73U3xtKW9HYt-14" value="Work as router gateway before going to Internet: can filter any in or out traffic (currently only TCP)" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="120" height="146.45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
